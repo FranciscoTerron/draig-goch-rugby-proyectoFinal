@@ -30,7 +30,6 @@ header {
     background-color: rgb(225, 5, 5);
     z-index: 5;
     max-width: 100%;
-
 }
 
 
@@ -44,7 +43,7 @@ header {
 .navbar-nav .nav-item .nav-link {
     color: white;
     font-size: 25px;
-    margin: 10px;
+    margin: 7px;
 }
 
 
@@ -76,6 +75,7 @@ main {
     min-height: 80vh;
 }
 
+
 /* Inicio (Pagina Principal) */
 
 .contenedorSecciones {
@@ -95,6 +95,7 @@ main {
     margin: 5px;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .contenidoContenedor a {
@@ -456,6 +457,10 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .navbar-collapse {
+        justify-content: flex-start;
+    }
+
 }
 
 /* A la cantidad que me decia en la computadora le sumaba 50 porque sino no me hacia el responsive el max:width original serian 587 */
@@ -469,14 +474,15 @@ h2 {
         width: 196px;
     }
 
+    nav {
+        max-width: 100%;
+    }
+
 
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .header li {
-        font-size: 15px;
-    }
 
     .contenedor .contenedorFormulario form {
         width: 100%;
