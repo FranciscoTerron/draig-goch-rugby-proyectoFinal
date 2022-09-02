@@ -1,0 +1,15 @@
+/* Extend */
+%estiloParrafo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(1 161 1);
+}
+
+/* Mixin */
+@mixin tamañoImagen($ancho) {
+    width: $ancho;
+    border-radius: 5%;
+    margin: 0px 6px;
+    margin-bottom: 22px;
+}

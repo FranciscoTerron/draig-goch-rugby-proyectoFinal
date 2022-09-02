@@ -1,0 +1,185 @@
+En el archivo index.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica lo que significa un poco el contenido de mi pagina
+principal : Sitio oficial Draig Goch rugby club, en el cual se encontrara informacion sobre la tienda del club, 
+  horarios de entrenamientos, contacto(ubicacion), etc.
+
+.Palabras clave : Mediante la etiqueta meta name keywords, agregue las palabras claves que acompañan basicamente a todas las paginas de mi
+sitio web : "Rugby, Hockey, Club, tienda, entrenamiento".
+
+
+.Encabezado : Para mi encabezado del h1 utilice el siguiente texto " Club Draig Goch " -> Representa el nombre del club.
+
+<CLUB>
+
+En el archivo club.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina club :
+En esta seccion del sitio se encuentra la historia del club, desde sus inicios hasta la actualidad.
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, historia , rugby , hockey.
+
+.Encabezado : En la etiqueta h1 utilice el texto : HISTORIA DEL CLUB.
+
+<CONTACTO>
+
+En el archivo contacto.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina contacto :
+Esta es la seccion de contacto, en la cual encontraras la ubicacion del club y tambien un formulario el cual podes llenar
+para cualquier consulta e inquietud.
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, contacto , ubicacion , rugby, hockey.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Contacto Club.
+
+
+<HOCKEY>
+En el archivo hockey.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina hockey :
+Esta es la seccion de hockey , en la cual encontraras las distintas
+categorias de hockey con sus respectivas paginas en las cuales podes saber el horario y entrenadores de cada una de ellas.
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey , categorias , horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Hockey.
+
+<RUGBY>
+
+En el archivo rugby.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina rugby:
+Esta es la seccion de rugby , en la cual encontraras las distintas
+categorias de rugby con sus respectivas paginas en las cuales podes saber el horario y entrenadores de cada una de ellas.
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, rugby , categorias , horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Rugby.
+
+
+<TIENDA>
+
+En el archivo tienda.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina tienda:
+Esta es la seccion de tienda  , en la cual encontraras toda la ropa que se encuentra actualmente en la tienda del club.
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  tienda, remeras , pantalones , ropa , horarios.
+
+.Encabezado : En la etiqueta h1 utilice el texto : TIENDA CLUB.
+
+
+
+
+
+<Infantiles(Hockey)>
+
+En el archivo infantilesHockey.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina infantilesHockey:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de las infantiles de hockey .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey , nenes , nenas ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Infantiles Hockey.
+
+
+
+<Juveniles(Hockey)>
+
+En el archivo juvenilesHockey.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina juvenilesHockey:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de las juveniles de hockey .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey , niñas , niños ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Juveniles Hockey.
+
+<Mamis(Hockey)>
+
+En el archivo mamisHockey.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina mamisHockey:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de las mamis de hockey .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey , mamis , señoras ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Mamis Hockey.
+
+
+<Plantel Superior Femenino(Hockey)>
+
+En el archivo plantelSuperior.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina plantelSuperior:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores del plantel superior femenino de hockey .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey ,  chicas ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Plantel Superior Hockey Femenino.
+
+
+
+<Plantel Superior Masculino(Hockey)>
+
+En el archivo plantelSuperiorMasculino.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina plantelSuperiorMasculino:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores del plantel superior masculino de hockey .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, hockey ,  chicos ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Plantel Superior Hockey Masculino.
+
+
+
+<Dragonas(Rugby)>
+
+En el archivo dragonas.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina dragonas:
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de las dragonas rugby .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, rugby ,  chicas ,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Dragonas Rugby.
+
+
+
+<Infantiles(Rugby)>
+
+En el archivo infantiles.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina infantiles(Rugby):
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de los infantiles de rugby .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, rugby ,  niños , niñas,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Infantiles Rugby.
+
+
+
+<Juveniles(Rugby)>
+
+En el archivo juveniles.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina juveniles(Rugby):
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de los juveniles de rugby .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, rugby ,  chicos , chicas,  horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Juveniles Rugby.
+
+
+<Plantel superior(Rugby)>
+
+En el archivo plantelSuperior.html sume el SEO con las caracteristicas que voy a nombrar a continuacion:
+
+.Descripcion : En la etiqueta meta name description, agregue el parrafo que explica un poco a que se refiere el contenido de la pagina plantelSuperior(Rugby):
+En esta seccion lo que se encuentra en la pagina son tanto los horarios y entrenadores de los Plantel Superior de rugby .
+
+.Palabras clave : En la etiqueta meta name keywords, agregue las palabras claves:  club, rugby ,  chicos , hombres , horarios , entrenamiento.
+
+.Encabezado : En la etiqueta h1 utilice el texto : Plantel Superior Rugby.
