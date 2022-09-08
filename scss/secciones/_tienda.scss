@@ -1,0 +1,50 @@
+.main-tienda {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+
+        div {
+            overflow: hidden;
+        }
+
+        .contenedorImagen {
+            p {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                color: #03b303;
+                margin: 15px 0px;
+            }
+
+            .imagenContenedorTienda {
+                width: 290px;
+                border-radius: 5%;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+
+
+            }
+
+            .imagenContenedorLarga {
+                height: 310px;
+                border-radius: 5%;
+                width: 270px;
+                margin-bottom: 7px;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,65 @@
+.main-plantelSuperiorHockeyMasculino {
+
+    .imagenBanner {
+        width: 100%;
+    }
+
+    .contenedorPrincipal {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .seccionContenidoHockey2 {
+            .imagenContenedorHockey {
+                width: 420px;
+                border-radius: 5%;
+            }
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .contenidoHockeyTitulo {
+            padding: 26px 20px 20px;
+            background-color: rgb(231, 47, 47);
+
+            h3 {
+                color: #ffffff;
+                text-align: center;
+                font-size: 21px;
+                font-weight: bold;
+            }
+        }
+
+        .contenidoHockeyInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            height: 100%;
+            margin-bottom: 10px;
+            background-color: #cccbcbb0;
+
+            strong {
+                color: rgb(252, 52, 52);
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            h2 {
+                color: rgb(252, 52, 52);
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 18px;
+                margin: 8px;
+            }
+        }
+    }
+
+}

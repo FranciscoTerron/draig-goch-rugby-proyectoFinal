@@ -1,1 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #a7a7a773 !important;
+}
+
+main {
+    min-height: 80vh;
+}
+
+
+// Hojas Parciales
 @import './variables/extend';
+@import './cosasGenerales/miga-de-pan';
+@import './cosasGenerales/barra-de-navegacion';
+@import './secciones/index';
+@import './secciones/tienda';
+@import './secciones/club';
+@import './secciones/contacto';
+@import './secciones/hockey';
+@import './secciones/rugby/dragonas';
+@import './secciones/rugby/infantilesRugby';
+@import './secciones/rugby/plantelSuperiorRugby';
+@import './secciones/rugby/juveniles';
+@import './secciones/hockey/mamis';
+@import './secciones/hockey/infantilesHockey';
+@import './secciones/hockey/juvenilesHockey';
+@import './secciones/hockey/plantelSuperiorFemenino';
+@import './secciones/hockey/plantelSuperiorMasculino';
+@import './cosasGenerales/pie-de-pagina';
+@import './cosasGenerales/mediaQuerys';

@@ -1,0 +1,57 @@
+.footer {
+    background-color: black;
+    height: 100%;
+    max-width: 100%;
+
+    p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 1;
+        text-decoration: none;
+
+        //Revisar
+        .nombreAutor {
+            color: #ffffff;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-top: 1;
+            text-decoration: none;
+
+            &:hover {
+                color: red;
+                font-weight: bold;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+
+        .fa-brands {
+            font-size: 50px;
+            margin: 0px 8px;
+        }
+
+        .fa-facebook {
+            color: rgb(112, 218, 42);
+        }
+
+        .fa-twitter {
+            color: rgb(255, 5, 5);
+        }
+
+        .fa-instagram {
+            color: rgb(226, 226, 226);
+        }
+
+
+    }
+}

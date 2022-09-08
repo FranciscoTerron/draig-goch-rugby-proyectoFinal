@@ -1,0 +1,172 @@
+/*Media Querys*/
+@media (max-width : 900px) {
+    .main-tienda {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+    }
+
+    header {
+        .navbar-collapse {
+            justify-content: flex-start;
+
+        }
+    }
+
+}
+
+/* A la cantidad que me decia en la computadora le sumaba 50 porque sino no me hacia el responsive el max:width original serian 587 */
+/* 567 */
+@media (max-width : 567px) {
+
+    /* .footer ul {
+        width: 196px;
+    } */
+
+    .footer {
+        ul {
+            max-width: 100%;
+        }
+    }
+
+    .main-tienda {
+        .grid-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+    }
+
+    .main-contacto {
+        .contenedor {
+            .contenedorFormulario {
+                form {
+                    width: 100% !important;
+                    border-radius: 1%;
+
+                    h2 {
+                        font-size: 25px;
+                    }
+
+                    input {
+                        padding: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    main {
+
+        .carouselImagenes {
+            max-width: 100% !important;
+            margin: 0;
+        }
+
+        .textoPrincipal {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .contenedorSecciones {
+            justify-content: center;
+        }
+
+        .contenedorImagen {
+            .imagenContenedor {
+                max-width: 100% !important;
+                margin: 0;
+            }
+        }
+    }
+
+
+
+    .textoPrincipal p,
+    .textoPrincipal h2 {
+        font-size: 15px !important;
+    }
+
+    .seccionContenidoHockey1,
+    .seccionContenidoHockey2,
+    .seccionContenidoRugby1,
+    .seccionContenidoRugby2 {
+        max-width: 100%;
+        margin-right: 25px;
+    }
+
+    /* Utilizo el important porque no me toma sino el cambio debe ser por bootstrap */
+    .contenidoHockeyInfo,
+    .contenidoRugbyInfo,
+    p {
+        font-size: 15px !important;
+    }
+
+    .contenidoHockeyInfo,
+    .contenidoRugbyInfo,
+    strong,
+    h2 {
+        font-size: 18px !important;
+    }
+
+
+
+
+    /* Utilizo el important porque no me toma sino el cambio debe ser por bootstrap */
+    .contenidoHockeyInfo,
+    .contenidoRugbyInfo,
+    p {
+        font-size: 15px !important;
+    }
+
+    .contenidoHockeyInfo,
+    .contenidoRugbyInfo,
+    strong,
+    h2 {
+        font-size: 18px !important;
+    }
+
+
+    header {
+        nav {
+            max-width: 100%;
+
+        }
+
+        .logo {
+            width: 100px;
+        }
+    }
+
+    footer {
+        ul {
+            .fa-brands {
+                font-size: 45px !important;
+                margin: 5px 15px !important;
+            }
+        }
+
+        p {
+
+
+            .nombreAutor {
+                font-size: 17px !important;
+            }
+
+        }
+    }
+
+    a {
+        font-size: 22px !important;
+    }
+
+    .contenedorPrincipal .seccionContenidoRugby2,
+    .seccionContenidoHockey2,
+    .imagenContenedorHockey,
+    .imagenContenedorRugby {
+        max-width: 100%;
+    }
+}
