@@ -15,15 +15,17 @@ header {
         .navbar-nav {
             .nav-item {
 
-                &:hover {
-                    font-weight: bold;
-                    color: rgb(2, 1, 1);
-                }
 
                 .nav-link {
                     color: white;
                     font-size: 25px;
                     margin: 7px;
+
+                    &:hover {
+                        font-weight: bold;
+                        color: rgb(2, 1, 1) !important;
+                    }
+
                 }
             }
 

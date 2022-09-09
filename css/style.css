@@ -10,6 +10,10 @@ body {
 main {
   min-height: 80vh; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 /* Extend */
 main .textoPrincipal h2, main .textoPrincipal p {
   text-align: center;
@@ -36,13 +40,13 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end; }
-    header .navbar-collapse .navbar-nav .nav-item:hover {
-      font-weight: bold;
-      color: #020101; }
     header .navbar-collapse .navbar-nav .nav-item .nav-link {
       color: white;
       font-size: 25px;
       margin: 7px; }
+      header .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-weight: bold;
+        color: #020101 !important; }
   header .logo {
     width: 120px;
     border-radius: 20%;
@@ -67,29 +71,17 @@ main .contenedorSecciones {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap; }
-  main .contenedorSecciones .seccion1 {
-    display: flex;
-    flex-direction: column;
-    width: 364px;
-    margin: 5px;
-    align-items: center;
-    flex-wrap: wrap; }
-  main .contenedorSecciones .seccion2 {
-    display: flex;
-    flex-direction: column;
-    width: 364px;
-    margin: 5px;
-    align-items: center;
-    flex-wrap: wrap; }
+  main .contenedorSecciones .seccion1,
+  main .contenedorSecciones .seccion2,
   main .contenedorSecciones .seccion3 {
     display: flex;
     flex-direction: column;
-    width: 364px;
+    width: 100%;
     margin: 5px;
     align-items: center;
     flex-wrap: wrap; }
-    main .contenedorSecciones .seccion3 .imagenClub {
-      height: 233px; }
+  main .contenedorSecciones .seccion3 .imagenClub {
+    height: 233px; }
   main .contenedorSecciones .contenidoContenedor {
     display: flex;
     flex-direction: column;
@@ -106,7 +98,6 @@ main .contenedorSecciones {
   main .contenedorSecciones .contenedorImagen .imagenContenedor {
     width: 350px;
     border-radius: 5%;
-    margin: 0px 6px;
     margin-bottom: 22px; }
     main .contenedorSecciones .contenedorImagen .imagenContenedor:hover {
       transform: scale(1.1) translate(5px, 5px);

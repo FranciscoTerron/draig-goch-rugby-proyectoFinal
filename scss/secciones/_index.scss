@@ -30,31 +30,18 @@ main {
         justify-content: space-around;
         flex-wrap: wrap;
 
-        .seccion1 {
+        .seccion1,
+        .seccion2,
+        .seccion3 {
             display: flex;
             flex-direction: column;
-            width: 364px;
-            margin: 5px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .seccion2 {
-            display: flex;
-            flex-direction: column;
-            width: 364px;
+            width: 100%;
             margin: 5px;
             align-items: center;
             flex-wrap: wrap;
         }
 
         .seccion3 {
-            display: flex;
-            flex-direction: column;
-            width: 364px;
-            margin: 5px;
-            align-items: center;
-            flex-wrap: wrap;
 
             .imagenClub {
                 height: 233px;
@@ -84,7 +71,6 @@ main {
             .imagenContenedor {
                 width: 350px;
                 border-radius: 5%;
-                margin: 0px 6px;
                 margin-bottom: 22px;
 
                 &:hover {
