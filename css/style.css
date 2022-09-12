@@ -69,7 +69,7 @@ main .contenedorSecciones {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: nowrap; }
+  flex-wrap: wrap; }
   main .contenedorSecciones .seccion1,
   main .contenedorSecciones .seccion2,
   main .contenedorSecciones .seccion3 {
