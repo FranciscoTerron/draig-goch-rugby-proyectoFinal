@@ -67,10 +67,9 @@ main .textoPrincipal p {
 
 main .contenedorSecciones {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
   main .contenedorSecciones .seccion1,
   main .contenedorSecciones .seccion2,
   main .contenedorSecciones .seccion3 {
@@ -610,7 +609,9 @@ main .contenedorSecciones {
   .main-tienda .grid-container {
     grid-template-columns: repeat(2, 1fr); }
   header .navbar-collapse {
-    justify-content: flex-start; } }
+    justify-content: flex-start; }
+  main .contenedorSecciones {
+    flex-wrap: wrap; } }
 
 /* A la cantidad que me decia en la computadora le sumaba 50 porque sino no me hacia el responsive el max:width original serian 587 */
 /* 567 */

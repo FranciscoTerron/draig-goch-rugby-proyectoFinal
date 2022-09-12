@@ -14,6 +14,12 @@
         }
     }
 
+    main {
+        .contenedorSecciones {
+            flex-wrap: wrap;
+        }
+    }
+
 }
 
 /* A la cantidad que me decia en la computadora le sumaba 50 porque sino no me hacia el responsive el max:width original serian 587 */

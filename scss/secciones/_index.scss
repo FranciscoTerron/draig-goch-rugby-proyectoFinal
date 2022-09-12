@@ -25,10 +25,9 @@ main {
 
     .contenedorSecciones {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
 
         .seccion1,
         .seccion2,
