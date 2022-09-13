@@ -2,12 +2,68 @@
 
 
 .main-hockey {
-    .contenedorSecciones {
-        .seccionJuveniles {
-            .imagenJuvenilesHockey {
-                margin-top: 17px;
-            }
+
+    .textoPrincipal {
+        h1 {
+            color: rgb(231, 47, 47);
+            text-align: center;
+            font-size: 50px;
+            margin: 35px 0px;
+            font-weight: bold;
+        }
+
+
+        h2 {
+            @extend %estiloParrafo;
+            color: rgb(3, 179, 3);
+
+        }
+
+        p {
+            @extend %estiloParrafo;
+            color: rgb(3, 179, 3);
+
         }
     }
 
+    .contenedorSeccionesDeportes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .contenidoContenedor {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: rgb(3, 179, 3);
+                font-size: 25px;
+                margin-bottom: 15px !important;
+
+                &:hover {
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .contenedorImagen {
+            .imagenContenedor {
+                width: 350px;
+                border-radius: 5%;
+                margin-bottom: 22px;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+            }
+        }
+
+    }
 }
