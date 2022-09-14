@@ -134,13 +134,25 @@ main .contenedorSecciones {
       transition: .3s;
       border-radius: 5%; }
 
-.main-club .contenedorSeccionesClub {
-  max-width: 800px;
+.main-club {
   display: flex;
+  justify-content: center;
   align-items: center; }
-  .main-club .contenedorSeccionesClub .contenidoContenedorClub p {
-    color: #1a1919;
-    font-size: 20px; }
+  .main-club .contenedor {
+    max-width: 800px;
+    background-color: rgba(47, 187, 0, 0.86);
+    border-radius: 5%;
+    padding: 10px;
+    margin-bottom: 15px; }
+    .main-club .contenedor .textoPrincipal h1 {
+      color: #e72f2f;
+      font-weight: bold;
+      text-align: center; }
+    .main-club .contenedor p {
+      text-align: center;
+      color: #1a1919;
+      font-size: 22px;
+      font-weight: bold; }
 
 .main-contacto .contenedor {
   display: flex;
@@ -216,6 +228,8 @@ main .contenedorSecciones {
       .main-hockey .contenedorSeccionesDeportes .contenidoContenedor a:hover {
         color: black;
         font-weight: bold; }
+  .main-hockey .contenedorSeccionesDeportes .contenedorImagen .imagenJuvenilesHockey {
+    margin-top: 6px; }
   .main-hockey .contenedorSeccionesDeportes .contenedorImagen .imagenContenedor {
     width: 350px;
     border-radius: 5%;

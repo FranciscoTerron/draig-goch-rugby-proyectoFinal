@@ -1,24 +1,30 @@
 .main-club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-    .contenedorSeccionesClub {
+    .contenedor {
         max-width: 800px;
-        display: flex;
-        align-items: center;
+        background-color: rgba(47, 187, 0, 0.86);
+        border-radius: 5%;
+        padding: 10px;
+        margin-bottom: 15px;
 
-
-        .contenidoContenedorClub {
-
-
-            p {
-                color: rgb(26, 25, 25);
-                font-size: 20px;
+        .textoPrincipal {
+            h1 {
+                color: rgb(231, 47, 47);
+                font-weight: bold;
+                text-align: center;
             }
-
-
         }
+
+        p {
+            text-align: center;
+            color: rgb(26, 25, 25);
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+
     }
-
-
-
 }
