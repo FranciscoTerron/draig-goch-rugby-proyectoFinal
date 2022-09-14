@@ -43,6 +43,8 @@
 
     }
 
+
+
     .main-contacto {
         .contenedor {
             .contenedorFormulario {
@@ -174,5 +176,15 @@
     .imagenContenedorHockey,
     .imagenContenedorRugby {
         max-width: 100%;
+    }
+
+    .main-hockey,
+    .main-rugby {
+        .contenedorSeccionesDeportes {
+            .contenedorImagen {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
     }
 }
