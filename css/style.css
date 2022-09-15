@@ -669,15 +669,15 @@ main .contenedorSecciones {
     margin-top: 1;
     text-decoration: none; }
     .footer p .nombreAutor {
-      color: #ffffff;
+      color: #ff0000;
+      font-weight: bold;
       text-align: center;
       font-size: 20px;
       margin-bottom: 0;
       margin-top: 1;
       text-decoration: none; }
       .footer p .nombreAutor:hover {
-        color: red;
-        font-weight: bold; }
+        color: #00ff37; }
   .footer ul {
     display: flex;
     width: 100%;
