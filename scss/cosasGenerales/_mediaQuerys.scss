@@ -22,13 +22,9 @@
 
 }
 
-/* A la cantidad que me decia en la computadora le sumaba 50 porque sino no me hacia el responsive el max:width original serian 587 */
-/* 567 */
+
 @media (max-width : 567px) {
 
-    /* .footer ul {
-        width: 196px;
-    } */
 
     .footer {
         ul {
@@ -53,7 +49,7 @@
                     border-radius: 1%;
 
                     h2 {
-                        font-size: 25px;
+                        font-size: 25px !important;
                     }
 
                     input {
@@ -87,6 +83,12 @@
             .imagenContenedor {
                 max-width: 100% !important;
                 margin: 0;
+
+                // Le saco el hover de las imagenes para celulares 
+                &:hover {
+                    transform: none !important;
+                    transition: none !important;
+                }
             }
         }
     }
@@ -188,4 +190,14 @@
             }
         }
     }
+
+    .main-club {
+        .contenedor {
+            padding: 5px !important;
+            border-radius: 1% !important;
+        }
+    }
+
+
+
 }
