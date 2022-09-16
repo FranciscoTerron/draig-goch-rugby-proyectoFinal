@@ -776,10 +776,20 @@ main .contenedorSecciones {
   .imagenContenedorHockey,
   .imagenContenedorRugby {
     max-width: 100%; }
-  .main-hockey .contenedorSeccionesDeportes .contenedorImagen,
-  .main-rugby .contenedorSeccionesDeportes .contenedorImagen {
+  .main-hockey .contenedorSeccionesDeportes .seccionInfantiles,
+  .main-hockey .contenedorSeccionesDeportes .seccionJuveniles,
+  .main-hockey .contenedorSeccionesDeportes .seccionPlantelSuperior,
+  .main-hockey .contenedorSeccionesDeportes .seccionPlantelSuperiorMasculino,
+  .main-hockey .contenedorSeccionesDeportes .seccionMamisHockey,
+  .main-hockey .contenedorSeccionesDeportes .seccionDragonas,
+  .main-rugby .contenedorSeccionesDeportes .seccionInfantiles,
+  .main-rugby .contenedorSeccionesDeportes .seccionJuveniles,
+  .main-rugby .contenedorSeccionesDeportes .seccionPlantelSuperior,
+  .main-rugby .contenedorSeccionesDeportes .seccionPlantelSuperiorMasculino,
+  .main-rugby .contenedorSeccionesDeportes .seccionMamisHockey,
+  .main-rugby .contenedorSeccionesDeportes .seccionDragonas {
     display: flex;
-    flex-direction: column-reverse; }
+    flex-direction: column-reverse !important; }
   .main-club .contenedor {
     padding: 5px !important;
     border-radius: 1% !important; } }

@@ -184,9 +184,15 @@
     .main-hockey,
     .main-rugby {
         .contenedorSeccionesDeportes {
-            .contenedorImagen {
+
+            .seccionInfantiles,
+            .seccionJuveniles,
+            .seccionPlantelSuperior,
+            .seccionPlantelSuperiorMasculino,
+            .seccionMamisHockey,
+            .seccionDragonas {
                 display: flex;
-                flex-direction: column-reverse;
+                flex-direction: column-reverse !important;
             }
         }
     }
